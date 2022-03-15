@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+:root {
+  --header-heignt: 52px;
+  --footer-height: 52px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+a:link,
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+.header {
+  background-color: hsl(220, 30%, 30%);
+  color: white;
+  height: var(--header-heignt);
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  max-width: calc(800px - 32px * 2);
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: x-large;
+  padding: 0 32px;
+}
+
+.main {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  min-height: calc(100% - var(--header-heignt) - var(--footer-height));
+  box-sizing: border-box;
+}
+
+.footer {
+  text-align: center;
+  background: hsl(0, 0%, 85%);
+  height: var(--footer-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkbtns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.linkbtns button {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: inherit;
+  border-style: none;
+  color: white;
+  padding: 5px;
+  border-radius: 16px;
+  min-width: 180px;
+  min-height: 55px;
+  appearance: none;
+  background-color: hsla(0, 0%, 0%, 0.0);
+}
+
+.linkbtns>div {
+  border-radius: 16px;
+  margin: 0 10px 10px 0;
+}
+
+.linkbtns button:hover {
+  background-color: hsla(0, 0%, 100%, 0.2);
+}
+
+.linkbtns button:active {
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+.regex-dict {
+  background-color: hsl(115, 29%, 53%);
+}
+
+.dice-roll {
+  background-color: hsl(180, 100%, 27%);
+}
+
+.clock {
+  background-color: hsl(200, 80%, 40%);
+}
+
+.minesweeper {
+  background-color: hsl(210, 50%, 50%);
+}
