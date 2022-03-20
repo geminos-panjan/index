@@ -116,3 +116,7 @@ a:active {
 .minesweeper {
   background-color: hsl(210, 50%, 50%);
 }
+
+.counter {
+  background-color: hsl(270, 30%, 50%);
+}
