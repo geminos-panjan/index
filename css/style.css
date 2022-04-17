@@ -120,3 +120,7 @@ a:active {
 .counter {
   background-color: hsl(270, 30%, 50%);
 }
+
+.sound {
+  background-color: hsl(350, 60%, 50%);
+}
